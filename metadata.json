@@ -1,0 +1,5 @@
+{
+  "name": "Logistics Management System",
+  "description": "A comprehensive web application for managing logistics operations including trips, payments, royalty tracking, and analytics.",
+  "requestFramePermissions": []
+}

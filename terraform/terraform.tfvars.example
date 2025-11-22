@@ -1,0 +1,14 @@
+# Copy this file to terraform.tfvars and fill in your values
+# terraform.tfvars is in .gitignore and should not be committed
+
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+db_tier    = "db-f1-micro"  # Use db-n1-standard-1 for production
+db_user    = "postgres"
+db_password = "your-secure-password-here"
+jwt_secret = "your-jwt-secret-key-here-min-32-chars"
+cors_origin = "https://your-frontend-domain.com"
+image_tag  = "latest"
+enable_deletion_protection = false
+enable_public_access = false
+
